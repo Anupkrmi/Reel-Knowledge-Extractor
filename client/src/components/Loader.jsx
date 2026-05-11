@@ -3,7 +3,7 @@ import { Loader2 } from 'lucide-react';
 
 const Loader = () => (
   <div className="loader">
-    <Loader2 className="spinner" size={20} />
+    <Loader2 className="spinner" size={16} />
     <span>Processing...</span>
   </div>
 );
